@@ -29,8 +29,8 @@ pip install --upgrade pip
 if [ -f "requirements.txt" ]; then
     pip install -r requirements.txt
 else
-    echo "[!] No requirements.txt found. Installing pytest for stretch goal..."
-    pip install pytest
+    echo "[!] No requirements.txt found."
+    # pip install pytest
 fi
 
 echo "------------------------------------------------"
